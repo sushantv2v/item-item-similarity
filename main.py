@@ -88,6 +88,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from scipy.sparse import csr_matrix
 import streamlit as st
 
+
 base_loc = ''
 
 # Load the ratings data
