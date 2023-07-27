@@ -92,11 +92,11 @@ import streamlit as st
 base_loc = ''
 
 # Load the ratings data
-u_data = pd.read_csv(base_loc+ '/Data/u.data', sep='\t', header=None,
+u_data = pd.read_csv(base_loc+ 'Data/u.data', sep='\t', header=None,
                      names=['user_id', 'item_id', 'rating', 'timestamp'])
 
 # Load the movie data
-u_item = pd.read_csv(base_loc + '/Data/u.item', sep='|', encoding='latin-1', header=None,
+u_item = pd.read_csv(base_loc + 'Data/u.item', sep='|', encoding='latin-1', header=None,
                      names=['item_id', 'movie_title', 'release_date', 'video_release_date', 'IMDb_URL',
                             'unknown', 'Action', 'Adventure', 'Animation', 'Children', 'Comedy', 'Crime', 'Documentary',
                             'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance',
