@@ -7,7 +7,7 @@ import streamlit as st
 
 @st.cache_data(ttl=600)  # Set the time-to-live (TTL) in seconds
 def load_data():
-    base_loc = '/Users/sushant.verma/PycharmProjects/item_item_similarity/'
+    base_loc = ''
     # Load the ratings data
     u_data = pd.read_csv(base_loc + 'Data/u.data', sep='\t', header=None,
                          names=['user_id', 'item_id', 'rating', 'timestamp'])
