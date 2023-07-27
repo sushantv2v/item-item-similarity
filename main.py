@@ -76,4 +76,4 @@ try:
     else:
         st.write(f"No similar movies found for '{selected_movie_title}'.")
 except IndexError:
-    st.write(f"Error: '{selected_movie_title}' is not found in the movie list.")
+    st.write(f"Recommendations are not available for '{selected_movie_title}'.")
